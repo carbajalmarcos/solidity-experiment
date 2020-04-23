@@ -1,0 +1,47 @@
+$card-shadow: 0 0.46875rem 2.1875rem rgba(59, 62, 102, 0.03),
+  0 0.9375rem 1.40625rem rgba(59, 62, 102, 0.03),
+  0 0.25rem 0.53125rem rgba(59, 62, 102, 0.05),
+  0 0.125rem 0.1875rem rgba(59, 62, 102, 0.03);
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:url( https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Wallet_web_anim_v2_AupdwHk.gif) no-repeat fixed center;
+}
+.home-main-card {
+  background-color: #333 !important;
+  height: 700px;
+  box-shadow: $card-shadow;
+  padding: 5%;
+  justify-content: space-around;
+}
+.home-balance-card {
+  padding-bottom: 15px;
+}
+.home-coin-img {
+  align-self: center;
+  margin: 25px;
+}
+.home-text-center {
+  text-align: center;
+}
+.home-text-number {
+  font-size: 1rem;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0px !important;
+}
+.home-form-button {
+  align-self: center;
+  margin-top: 25px;
+}
+.home-form-title {
+  text-align: center;
+}
+.home-input {
+  text-align: center;
+}
